@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}:root{
+    --side-panel-color: #1992d4;
+    --side-panel-color-text: #ffffff;
+    --projects-background-color: #e2e8f0;
+    --procject-left-border-color: #f0b429;
+}nav{
+    background-color: var(--side-panel-color);
+    height: 100vh;
+    width: 25vw;
+    color: var(--side-panel-color-text);
+}ul>li, h2{
+    list-style: none;
+    padding: 1rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: 700;
+
+}i{
+    padding-right: 1rem;
+}
