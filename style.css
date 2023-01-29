@@ -118,9 +118,23 @@ i{
 }.social{
     display: grid;
     grid-template-rows: 50px 1fr 50px 1fr;
-}.announcment{
+}.announcments,.trending{
     background-color: var(--side-panel-color-text);
+    border-radius: 10px;
+    display: grid;
+    padding: 10px;
+    margin: 10px;
+    gap: auto;
+}
+.announcment{
     padding: 10px;
     border-radius: 10px;
     gap: 1rem;
+}.trending-item>img{
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}.trending-item{
+    display: flex;
+    align-items: center;
 }
